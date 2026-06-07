@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>FastAPI + Machine Learning + Scikit-learn</b><br>
-  Predict insurance premium categories with confidence scores.
+  A FastAPI-based service that predicts insurance premium categories for users using a pre-trained classification model.
 </p>
 
 <p align="center">
@@ -14,11 +14,18 @@
 
 <hr>
 
-<h2>⚡ Overview</h2>
+**Contents:**
+- **Overview:** What the project does.
+- **Repository structure:** Key files and purpose.
+- **Prerequisites & Setup:** Step-by-step environment setup (Windows / PowerShell).
+- **Run & Test:** How to run the API, examples, and sample requests.
+- **Schema & Model:** Input schema, computed fields, and model details.
+- **Extending / Updating model:** How to replace or retrain the model.
+
+<h2> Project Overview </h2>
 
 <p>
-A real-time <b>Insurance Premium Prediction API</b> built using FastAPI and Machine Learning.
-It takes user details and predicts the insurance premium category along with confidence scores.
+This project exposes a small prediction API that accepts user information (age, height, weight, income, smoking status, city, occupation) and returns a predicted insurance premium category together with confidence and class probabilities.
 </p>
 
 <p><i>Validate → Transform → Predict → Respond</i></p>
